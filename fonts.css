@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'SFProText';
+    src: url('SFProText-Medium.eot');
+    src: url('SFProText-Medium.eot?#iefix') format('embedded-opentype'),
+        url('SFProText-Medium.woff2') format('woff2'),
+        url('SFProText-Medium.woff') format('woff'),
+        url('SFProText-Medium.ttf') format('truetype'),
+        url('SFProText-Medium.otf') format('opentype'),
+        url('SFProText-Medium.svg#SFProText-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFProDisplay';
+    src: url('SFProDisplay-Regular.eot');
+    src: url('SFProDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('SFProDisplay-Regular.woff2') format('woff2'),
+        url('SFProDisplay-Regular.woff') format('woff'),
+        url('SFProDisplay-Regular.ttf') format('truetype'),
+        url('SFProDisplay-Regular.otf') format('opentype'),
+        url('SFProDisplay-Regular.svg#SFProDisplay-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFProText';
+    src: url('SFProText-Light.eot');
+    src: url('SFProText-Light.eot?#iefix') format('embedded-opentype'),
+        url('SFProText-Light.woff2') format('woff2'),
+        url('SFProText-Light.woff') format('woff'),
+        url('SFProText-Light.ttf') format('truetype'),
+        url('SFProText-Light.otf') format('opentype'),
+        url('SFProText-Light.svg#SFProText-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFProText';
+    src: url('SFProText-Regular.eot');
+    src: url('SFProText-Regular.eot?#iefix') format('embedded-opentype'),
+        url('SFProText-Regular.woff2') format('woff2'),
+        url('SFProText-Regular.woff') format('woff'),
+        url('SFProText-Regular.ttf') format('truetype'),
+        url('SFProText-Regular.otf') format('opentype'),
+        url('SFProText-Regular.svg#SFProText-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFProDisplay';
+    src: url('SFProDisplay-Bold.eot');
+    src: url('SFProDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('SFProDisplay-Bold.woff2') format('woff2'),
+        url('SFProDisplay-Bold.woff') format('woff'),
+        url('SFProDisplay-Bold.ttf') format('truetype'),
+        url('SFProDisplay-Bold.otf') format('opentype'),
+        url('SFProDisplay-Bold.svg#SFProDisplay-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFProDisplay';
+    src: url('SFProDisplay-Light.eot');
+    src: url('SFProDisplay-Light.eot?#iefix') format('embedded-opentype'),
+        url('SFProDisplay-Light.woff2') format('woff2'),
+        url('SFProDisplay-Light.woff') format('woff'),
+        url('SFProDisplay-Light.ttf') format('truetype'),
+        url('SFProDisplay-Light.otf') format('opentype'),
+        url('SFProDisplay-Light.svg#SFProDisplay-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFProText';
+    src: url('SFProText-Thin.eot');
+    src: url('SFProText-Thin.eot?#iefix') format('embedded-opentype'),
+        url('SFProText-Thin.woff2') format('woff2'),
+        url('SFProText-Thin.woff') format('woff'),
+        url('SFProText-Thin.ttf') format('truetype'),
+        url('SFProText-Thin.otf') format('opentype'),
+        url('SFProText-Thin.svg#SFProText-Thin') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFProText';
+    src: url('SFProText-Ultralight.eot');
+    src: url('SFProText-Ultralight.eot?#iefix') format('embedded-opentype'),
+        url('SFProText-Ultralight.woff2') format('woff2'),
+        url('SFProText-Ultralight.woff') format('woff'),
+        url('SFProText-Ultralight.ttf') format('truetype'),
+        url('SFProText-Ultralight.otf') format('opentype'),
+        url('SFProText-Ultralight.svg#SFProText-Ultralight') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFProDisplay';
+    src: url('SFProDisplay-Ultralight.eot');
+    src: url('SFProDisplay-Ultralight.eot?#iefix') format('embedded-opentype'),
+        url('SFProDisplay-Ultralight.woff2') format('woff2'),
+        url('SFProDisplay-Ultralight.woff') format('woff'),
+        url('SFProDisplay-Ultralight.ttf') format('truetype'),
+        url('SFProDisplay-Ultralight.otf') format('opentype'),
+        url('SFProDisplay-Ultralight.svg#SFProDisplay-Ultralight') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFProDisplay';
+    src: url('SFProDisplay-Thin.eot');
+    src: url('SFProDisplay-Thin.eot?#iefix') format('embedded-opentype'),
+        url('SFProDisplay-Thin.woff2') format('woff2'),
+        url('SFProDisplay-Thin.woff') format('woff'),
+        url('SFProDisplay-Thin.ttf') format('truetype'),
+        url('SFProDisplay-Thin.otf') format('opentype'),
+        url('SFProDisplay-Thin.svg#SFProDisplay-Thin') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+

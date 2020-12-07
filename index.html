@@ -7,7 +7,8 @@
         <!-- Je sais plus à quoi ça sert-->
         <meta name="viewport" content="width=device-width">
 
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="fonts.css"/>
         <title>Clément.F | Développeur mobile swift iOS</title>
     </head>
 
@@ -16,42 +17,43 @@
     <header>
         <nav class="navbar_header">
             <div class="title_navbar_header">
-                <h1>CLEMENT FLORET</h1>
+                <h1>FLORET.C</h1>
             </div>
             <div class="title_navbar_header">
-                <h2>ACCUEIL</h2>
+               <a href="index.html"><h2>ACCUEIL</h2></a> 
             </div>
             <div class="title_navbar_header">
-                <h2>À PROPOS</h2>
+                <a href="about.html"><h2>À PROPOS</h2></a>
             </div>
             <div class="title_navbar_header">
-                <h2>KANA TORII</h2>
+                <a href="kanatorii.html"><h2>KANA TORII</h2></a>
             </div>
             <div class="empty_space_navbar_header">
                 <!--EMPTY SPACE-->
             </div>
-            <div class="title_navbar_header">
-                <h2>FR</h2>
+            <div class="title_navbar_header border_left">
+                <a href=""><h2><span class="letter_spacing_normal white">FR<img src="img/Triangle down.svg" alt="menu de langue"></span></h2></a>
             </div>
-            <div class="title_navbar_header">
-                <img src="img/menu-black-18dp.svg" alt="menu">
+            <div class="title_navbar_header no_border_right">
+                <a href=""><img class="menu_hamburger" src="img/Menu hamburger.svg" alt="menu"></a>
             </div>
         </nav>
     </header>
     
     <main>
-        <div class="body">
+        <div class="body_main">
             <div class="intro_description_home">
                 <div class="text_intro_description">
-                    <h3>Bonjour,</h3>
-                    <h4>je suis</h4>
-                    <h3>Clément Floret</h3>
-                    <h4>Développeur mobile iOS</h4> 
+                    <span class="margin_bottom_30p"><h3>Bonjour,</h3></span>
+                    <span class="font_size_125"><h4>je suis</h4></span>
+                    <h3><strong> Clément Floret</strong></h3>
+                    <span class="font_size_125"><h4>Développeur mobile iOS</h4> </span>
                 </div>
+                <div class="empty_space_description_home"></div>
                 <div class="avatar_links_social_media_intro_description">
-                    <img src="img/avatar.svg" alt="avatar de clément floret">
-                    <img src="img/Linkedin logo.svg" alt="lien linkedIn">
-                    <img src="img/Github logo.svg" alt="lien Github">
+                    <img class="margin_0_30p" src="img/avatar.png" srcset="img/avatar.png 1x, img/avatar@2x.png 2x, img/avatar@3x.png" alt="avatar de clément floret" width="148" height="148">
+                    <a class="github_links margin_0_30p" href="https://github.com/floretcl" ></a>
+                    <a class="linkedin_links margin_0_30p" href="https://www.linkedin.com/in/clément-f-9521b3119"></a>
                 </div>
                 
             </div>
@@ -68,8 +70,8 @@
 
     <footer>
         <div class="links_footer">
-            <h6>Contact</h6>
-            <h6>Mentions légales</h6>
+            <a href="mailto:floretcl@outlook.com"><h6>Contact</h6></a>
+            <a href="entries.html"><h6>Mentions légales</h6></a>
         </div>
         <p>Copyright © 2020 Clément Floret - Tous droits réservés</p>
     </footer>

@@ -95,13 +95,19 @@ header {
    color: white;
    height: 36px;
    width: 100%;
+   
 }
 .navbar_header a {
    color: rgb(179, 179, 179);
+   transition-property: background-color color;
+   transition-duration: 0.3s;
 }
 .navbar_header a:hover {
    background-color: rgba(236, 104, 10, 0.54);
    color: white;
+}
+.current_item {
+   background-color: rgba(236, 104, 10, 0.54);
 }
 .title_navbar_header {
    display: flex;
@@ -130,11 +136,28 @@ h2 .letter_spacing_normal {
    color: white;
 }
 .menu_hamburger {
+   background: url('img/menu-hamburger.png') no-repeat;
+   background-size: contain;
+   alt: "Ouvrir le Menu";
+   width: 18px;
+   height: 15px;
    padding-top: 12px;
    padding-bottom: 12px;
    padding-left: 20px;
    padding-right: 20px;
 }
+.menu_hamburger:active {
+   background: url('img/menu-hamburger-active.png') no-repeat;
+   background-size: contain;
+   alt: "Fermer le Menu";
+   width: 15px;
+   height: 15px;
+   padding-top: 12px;
+   padding-bottom: 12px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
 
 
 
@@ -175,6 +198,8 @@ h2 .letter_spacing_normal {
    alt: "lien Github";
    width: 83px;
    height: 75px;
+   transition-property: all;
+   transition-duration: 0.3s;
 }
 .github_links:hover {
    background: url('img/Github-logo-hover.png') no-repeat;
@@ -189,6 +214,8 @@ h2 .letter_spacing_normal {
    alt: "lien linkedIn";
    width: 83px;
    height: 75px;
+   transition-property: all;
+   transition-duration: 0.3s;
 }
 .linkedin_links:hover {
    background: url('img/Linkedin-logo-hover.png');

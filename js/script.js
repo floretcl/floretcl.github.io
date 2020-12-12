@@ -1,6 +1,7 @@
 let languageMenu = document.getElementById('language-menu');
 let languageList = document.getElementById('language-list');
 let triangle = document.getElementById('triangle');
+let languageH2 = document.getElementById('language-h2');
 let hamburgerMenu = document.getElementById('hamburger-menu');
 let hamburgerList = document.getElementById('hamburger-list');
 
@@ -44,8 +45,17 @@ function displayHamburgerMenu() {
 
 languageMenu.addEventListener('click', displayLanguageMenu);
 hamburgerMenu.addEventListener('click', displayHamburgerMenu);
-window.addEventListener('mouseup', function(event){
-	if (event.target != hamburgerList && event.target.parentNode != hamburgerList){
+
+window.addEventListener('mouseup', e => {
+	if (e.target != hamburgerList && e.target!= hamburgerMenu){
+        desactiveHamburgerMenu();
         hamburgerList.style.display = 'none';
+    }
+});
+
+window.addEventListener('mouseup', e => {
+	if (e.target != languageList && e.target != languageH2 && e.target != triangle){
+        desactiveLanguageMenu();
+        languageList.style.display = 'none';
     }
 });

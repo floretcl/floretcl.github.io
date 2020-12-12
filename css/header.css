@@ -42,6 +42,9 @@ header {
     background-color: rgba(236, 104, 10, 0.726);
     color: white;
  }
+ .current_item h2 {
+   color: white;
+}
  .empty_space_navbar_header {
     flex-grow: 6;
  }

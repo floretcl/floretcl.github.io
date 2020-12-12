@@ -1,0 +1,28 @@
+/*
+---------------KANATORII----------------
+*/
+
+.body_main_thinner {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    padding: 4% 8%; 
+ }
+ .top_kanatorii {
+    text-align: center;
+ }
+ .description_kanatorii {
+    color: rgba(97, 95, 95, 1);
+    text-align: center;
+ }
+ .app_kanatorii {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+ }
+ .margin_40p_O {
+    margin: 40px 0;
+ }
+ 

@@ -4,11 +4,19 @@
     <head>
         <meta charset="utf-8" />
 
-        <!-- Je sais plus à quoi ça sert-->
+        <!-- ??? -->
         <meta name="viewport" content="width=device-width">
-
-        <link rel="stylesheet" href="style.css"/>
-        <link rel="stylesheet" href="fonts.css"/>
+        
+        <link rel="stylesheet" href="css/fonts.css"/>
+        
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/header.css"/>
+        <link rel="stylesheet" href="css/footer.css"/>
+        <link rel="stylesheet" href="css/home.css"/>
+        <link rel="stylesheet" href="css/about.css"/>
+        <link rel="stylesheet" href="css/kanatorii.css"/>
+        <link rel="stylesheet" href="css/entries.css"/>
+        
         <title>Clément.F | Développeur mobile swift iOS</title>
     </head>
 
@@ -32,10 +40,22 @@
                 <!--EMPTY SPACE-->
             </div>
             <div class="title_navbar_header border_left">
-                <a href=""><h2><span class="letter_spacing_normal white">FR<img src="img/Triangle down.svg" alt="menu de langue"></span></h2></a>
+                <a id="languageMenu" href=""><h2><span class="letter_spacing_normal white">FR<img src="img/Triangle down.svg" alt="menu de langue"></span></h2></a>
             </div>
             <div class="title_navbar_header no_border_right">
-                <a class="menu_hamburger" href=""></a>
+                <div id="hamburger-menu" class="menu_hamburger">
+                    <ul id="hamburger-list">
+                        <li class="element_list_hamburger">
+                            <a  href="index.html"><h2>Accueil</h2></a>                
+                        </li>
+                        <li class="element_list_hamburger">
+                            <a href="about.html"><h2>À propos</h2></a>
+                        </li>
+                        <li class="element_list_hamburger">
+                            <a href="kanatorii.html"><h2>Kana Torii</h2></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
@@ -71,7 +91,7 @@
         </div>
         <p>Copyright © 2020 Clément Floret - Tous droits réservés</p>
     </footer>
-
+    <script src="js/script.js"></script>
 </body>
 
 </html>

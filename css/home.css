@@ -1,0 +1,64 @@
+/*
+---------------HOME----------------
+*/
+
+
+.intro_description_home {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+ }
+ .empty_space_description_home {
+    flex-grow: 2;
+ }
+ .text_description_home {
+    color: rgba(97, 95, 95, 1);
+ }
+ .margin_bottom_30p h3 {
+    margin-bottom: 25px;
+ }
+ .font_size_125 h4 {
+    font-size: 1.25em;
+ }
+ .margin_0_30p {
+    margin: 0 30px;
+ }
+ .avatar_links_social_media_intro_description {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+ }
+ .github_links {
+    background: url('../img/logos/Github-logo/Github-logo.png') no-repeat;
+    background-size: contain;
+    alt: "lien Github";
+    width: 83px;
+    height: 75px;
+    transition-property: all;
+    transition-duration: 600ms;
+ }
+ .github_links:hover {
+    background: url('../img/logos/Github-logo/Github-logo-hover.png') no-repeat;
+    background-size: contain;
+    alt: "lien Github";
+    width: 83px;
+    height: 75px;
+ }
+ .linkedin_links {
+    background: url('../img/logos/Linkedin/Linkedin-logo.png') no-repeat;
+    background-size: contain;
+    alt: "lien linkedIn";
+    width: 83px;
+    height: 75px;
+    transition-property: all;
+    transition-duration: 600ms;
+ }
+ .linkedin_links:hover {
+    background: url('../img/logos/Linkedin/Linkedin-logo-hover.png');
+    background-size: contain;
+    alt: "lien linkedIn";
+    width: 83px;
+    height: 75px;
+ }

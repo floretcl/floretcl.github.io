@@ -41,3 +41,33 @@
     margin-right: 10px;
  }
  
+/*
+---------------MEDIA-QUERIES----------------
+*/
+
+
+ @media all and (max-width: 576px)
+ {
+   .content_about {
+      height: 80%;
+   }
+ }
+  @media all and (min-width: 576px) and (max-width: 768px)
+ {
+   .content_about {
+      height: 80%;
+   }
+ }
+  @media all and (min-width: 768px) and (max-width: 992px)
+  {
+   .content_about {
+      height: 1370px;
+   }
+  }
+ 
+  @media all and (min-width: 992px) and (max-width: 1200px)
+ {
+   .content_about {
+      height: 1370px;
+   }
+ }

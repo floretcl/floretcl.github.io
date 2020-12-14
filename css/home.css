@@ -6,7 +6,7 @@
 .intro_description_home {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     margin-bottom: 60px;
  }
  .empty_space_description_home {
@@ -21,8 +21,9 @@
  .font_size_125 h4 {
     font-size: 1.25em;
  }
- .margin_0_30p {
-    margin: 0 30px;
+ .margin_social_link {
+    margin-left: 30px;
+    margin-left: 30px;
  }
  .avatar_links_social_media_intro_description {
     display: flex;
@@ -46,6 +47,13 @@
     width: 83px;
     height: 75px;
  }
+ .github_links:active {
+   background: url('../img/logos/Github-logo/Github-logo-hover.png') no-repeat;
+   background-size: contain;
+   alt: "lien Github";
+   width: 83px;
+   height: 75px;
+}
  .linkedin_links {
     background: url('../img/logos/Linkedin/Linkedin-logo.png') no-repeat;
     background-size: contain;
@@ -56,9 +64,166 @@
     transition-duration: 600ms;
  }
  .linkedin_links:hover {
-    background: url('../img/logos/Linkedin/Linkedin-logo-hover.png');
+    background: url('../img/logos/Linkedin/Linkedin-logo-hover.png') no-repeat;
     background-size: contain;
     alt: "lien linkedIn";
     width: 83px;
     height: 75px;
+ }
+ .linkedin_links:active {
+   background: url('../img/logos/Linkedin/Linkedin-logo-hover.png') no-repeat;
+   background-size: contain;
+   alt: "lien linkedIn";
+   width: 83px;
+   height: 75px;
+}
+
+ /*
+---------------MEDIA-QUERIES----------------
+*/
+
+ @media all and (max-width: 576px)
+ {
+   .intro_description_home {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 60px;
+      align-items: center;
+   }
+   .text_intro_description {
+      text-align: center;
+      margin-bottom: 60px;
+   }
+   .avatar_links_social_media_intro_description {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: center;
+   }
+   .avatar {
+      margin-bottom: 30px;
+   }
+   .margin_social_link {
+      margin-left: 20px;
+      margin-right: 20px;
+   }
+   .font_size_125 h4 {
+      font-size: 1em;
+   }
+   .github_links {
+      width: 70px;
+      height: 69px;
+   }
+   .github_links:hover {
+      width: 70px;
+      height: 69px;
+   }
+   .linkedin_links {
+      width: 70px;
+      height: 69px;
+   }
+   .linkedin_links:hover {
+      width: 70px;
+      height: 69px;
+   }
+ }
+  @media all and (min-width: 576px) and (max-width: 768px)
+ {
+   .intro_description_home {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 60px;
+      align-items: center;
+   }
+   .text_intro_description {
+      text-align: center;
+      margin-bottom: 60px;
+   }
+   .margin_social_link {
+      margin-left: 20px;
+      margin-right: 20px;
+   }
+   .font_size_125 h4 {
+      font-size: 1em;
+   }
+   .github_links {
+      width: 70px;
+      height: 69px;
+   }
+   .github_links:hover {
+      width: 70px;
+      height: 69px;
+   }
+   .linkedin_links {
+      width: 70px;
+      height: 69px;
+   }
+   .linkedin_links:hover {
+      width: 70px;
+      height: 69px;
+   }
+ }
+  @media all and (min-width: 768px) and (max-width: 992px)
+  {
+   .intro_description_home {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 60px;
+      align-items: center;
+   }
+   .text_intro_description {
+      text-align: center;
+      margin-bottom: 60px;
+   }
+   .margin_social_link {
+      margin-left: 20px;
+      margin-right: 20px;
+   }
+   .font_size_125 h4 {
+      font-size: 1em;
+   }
+   .github_links {
+      width: 70px;
+      height: 69px;
+   }
+   .github_links:hover {
+      width: 70px;
+      height: 69px;
+   }
+   .linkedin_links {
+      width: 70px;
+      height: 69px;
+   }
+   .linkedin_links:hover {
+      width: 70px;
+      height: 69px;
+   }
+
+  }
+ 
+  @media all and (min-width: 992px) and (max-width: 1200px)
+ {
+   .margin_social_link {
+      margin-left: 20px;
+      margin-right: 20px;
+   }
+   .font_size_125 h4 {
+      font-size: 1em;
+   }
+   .github_links {
+      width: 70px;
+      height: 69px;
+   }
+   .github_links:hover {
+      width: 70px;
+      height: 69px;
+   }
+   .linkedin_links {
+      width: 70px;
+      height: 69px;
+   }
+   .linkedin_links:hover {
+      width: 70px;
+      height: 69px;
+   }
  }

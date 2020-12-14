@@ -30,9 +30,30 @@ footer {
     color: rgb(50, 168, 189);
     text-decoration: underline;
  }
+ footer a:active {
+   color: rgb(50, 168, 189);
+   text-decoration: underline;
+}
  footer p {
     color: white;
     font-family: 'SFProText',sans-serif;
     font-weight: 100;
     font-size: 0.75em;
+ }
+
+/*
+---------------MEDIA-QUERIES----------------
+*/
+
+ @media all and (max-width: 576px)
+ {
+   footer p {
+      font-size: 0.55em;
+   }
+ }
+  @media all and (min-width: 576px) and (max-width: 768px)
+ {
+   footer p {
+      font-size: 0.6em;
+   }
  }

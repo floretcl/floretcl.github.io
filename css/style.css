@@ -77,3 +77,105 @@ p {
    margin-bottom: 80px;
    padding: 6% 8%; 
 }
+
+/*
+---------------MEDIA-QUERIES----------------
+*/
+
+
+@media all and (max-width: 576px)
+{
+   h1 {
+      padding-left: 20px;
+      padding-right: 20px;
+   }
+   h2 {
+      font-size: 0.7em;
+      padding-left: 5px;
+      padding-right: 5px;
+   }
+   h3 {
+      font-size : 2em;
+   }
+   h4 {
+      font-size: 1.75em;
+   }
+   h6 {
+      font-size: 0.8em;
+      margin-left: 10px;
+      margin-right: 10px;
+   }
+   p {
+      font-size: 0.95em;
+   }
+   .body_main {
+      margin-left: 3%;
+      margin-right: 3%;
+      margin-top: 40px;
+      margin-bottom: 40px; 
+   }
+}
+ @media all and (min-width: 576px) and (max-width: 768px)
+{
+   h1 {
+      padding-left: 20px;
+      padding-right: 20px;
+   }
+   h2 {
+      font-size: 0.7em;
+      padding-left: 5px;
+      padding-right: 5px;
+   }
+   h3 {
+      font-size : 2em;
+   }
+   h4 {
+      font-size: 1.75em;
+   }
+   h6 {
+      font-size: 0.8em;
+      margin-left: 12px;
+      margin-right: 12px;
+   }
+   .body_main {
+      margin-top: 40px;
+      margin-bottom: 40px; 
+   }
+}
+ @media all and (min-width: 768px) and (max-width: 992px)
+ {
+   h1 {
+      padding-left: 30px;
+      padding-right: 30px;
+   }
+   h2 {
+      font-size: 0.8em;
+      padding-left: 10px;
+      padding-right: 10px;
+   }
+   h3 {
+      font-size : 2em;
+   }
+   h4 {
+      font-size: 1.75em;
+   }
+   .body_main {
+      margin-top: 60px;
+      margin-bottom: 60px; 
+   }
+ }
+
+ @media all and (min-width: 992px) and (max-width: 1200px)
+{
+   h3 {
+      font-size : 2em;
+   }
+   h4 {
+      font-size: 1.75em;
+   }
+}
+
+ @media all and (min-width: 1200px)
+{
+   
+}

@@ -3,6 +3,25 @@
 */
 
 
-.text_align {
+.text_align_center {
     text-align: center;
+ }
+.text_entries {
+    font-size: 1em;
+}
+/*
+---------------MEDIA-QUERIES----------------
+*/
+
+ @media all and (max-width: 576px)
+ {
+    .text_entries {
+        font-size: 0.9em;
+    }
+ }
+  @media all and (min-width: 576px) and (max-width: 768px)
+ {
+    .text_entries {
+        font-size: 0.95em;
+    }
  }

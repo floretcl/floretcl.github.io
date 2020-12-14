@@ -119,10 +119,6 @@ h2 .letter_spacing_normal {
    background-color: rgba(236, 104, 10, 0.726);
    color: white;
 }
-.menu_hamburger:active {
-   background-color: rgba(236, 104, 10, 0.726);
-   color: white;
-}
 .hamburger_active {
    background: url('../img/icons/menu-hamburger/menu-hamburger-active.png') no-repeat;
    background-size: contain;
@@ -176,10 +172,6 @@ h2 .letter_spacing_normal {
   background-color: rgba(236, 104, 10, 0.54);
   color: white;
 }
-.element_list_language a:active {
-   background-color: rgba(236, 104, 10, 0.54);
-   color: white;
- }
 
 /*
 ------------HAMBURGER-MENU--------------

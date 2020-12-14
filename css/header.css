@@ -83,6 +83,7 @@ h2 .letter_spacing_normal {
 .menu_language {
   color: rgb(179, 179, 179);
   transition-duration: 700ms;
+  height: 100%;
 }
 .menu_language:hover {
    background-color: rgba(236, 104, 10, 0.726);

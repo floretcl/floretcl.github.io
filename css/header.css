@@ -127,6 +127,9 @@ h2 .letter_spacing_normal {
    background-color: rgba(236, 104, 10, 0.726);
    color: white;
 }
+.element_list_border_bottom {
+   border-bottom: 2px solid rgba(151, 151, 151, 1);
+}
 
 
 /*
@@ -166,7 +169,6 @@ h2 .letter_spacing_normal {
   justify-content: center;
   width: 80%;
   height: 100%;
-  border-bottom: 1px solid rgba(151, 151, 151, 1);
   color: white;
 }
 .element_list_language a:hover {
@@ -210,8 +212,7 @@ h2 .letter_spacing_normal {
    align-items: center;
    justify-content: center;
    width: 80%;
-   height: 100%;
-   border-bottom: 1px solid rgba(151, 151, 151, 1);
+   height: 100%;  
    color: white;
 }
 .element_list_hamburger a:hover {
